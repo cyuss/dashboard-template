@@ -1,0 +1,15 @@
+version: '3.7'
+
+services: 
+    web:
+        build: .
+        command: npm start
+        ports: 
+            - 4100:4100
+        networks: 
+            - dashboard
+        # deploy:
+        #     replicas: 3
+
+networks: 
+    dashboard:
