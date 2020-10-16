@@ -1,7 +1,7 @@
 {
-  "name": "airframe-dashboard",
+  "name": "my-template-dashboard",
   "version": "0.1.0",
-  "description": "Seed project for flexible light React/Bootstrap 4 dashboards.",
+  "description": "Template for React/Bootstrap 4 dashboards.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

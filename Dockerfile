@@ -4,7 +4,7 @@ FROM node:14.2.0
 WORKDIR /usr/src/tmp
 
 COPY package.json package.json
-COPY package-lock.json package-lock.json
+# COPY package-lock.json package-lock.json
 
 RUN npm install
 
